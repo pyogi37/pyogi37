@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img">
+<defs>
+<pattern id="q1" width="16" height="16" patternUnits="userSpaceOnUse">
+<path d="M16 0H0V16" fill="none" stroke="#37493F" stroke-width="0.6"/>
+</pattern>
+<pattern id="q2" width="80" height="80" patternUnits="userSpaceOnUse">
+<path d="M80 0H0V80" fill="none" stroke="#465B50" stroke-width="0.9"/>
+</pattern>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0 0 L10 5 L0 10 z" fill="#8FBBE0"/>
+</marker>
+</defs>
+<rect width="1280" height="440" fill="#25342E"/>
+<rect width="1280" height="440" fill="url(#q1)"/>
+<rect width="1280" height="440" fill="url(#q2)"/>
+<rect x="28" y="28" width="1224" height="384" fill="none" stroke="#C4D0C7" stroke-width="1.1"/>
+<text x="56" y="62" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="1.7" fill="#9FAEA4">FIG. 1</text>
+<text x="1224" y="62" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#9FAEA4">github.com/pyogi37</text>
+<path d="M56 76H1224" stroke="#9FAEA4" stroke-width="0.7" opacity="0.55"/>
+<text x="64" y="162" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="54" fill="#EFEFE4">Priyanshu Yogi</text>
+<path d="M64 182H336" stroke="#E58176" stroke-width="2.2"/>
+<text x="64" y="216" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="20" fill="#EFEFE4" font-style="italic">Forward deployed engineer.</text>
+<text x="64" y="244" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="20" fill="#9FAEA4" font-style="italic">Applied AI, discovery through deployment.</text>
+<text x="64" y="292" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#EFEFE4">Three years turning ambiguous customer problems</text>
+<rect x="61" y="300" width="340" height="20" fill="#E8CE63" opacity="0.28"/>
+<text x="64" y="315" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#EFEFE4">into systems that survive contact with reality.</text>
+<text x="64" y="356" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9FAEA4">Jaipur, India  ·  priyanshu.fyi  ·  open to remote</text>
+<text x="64" y="394" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="12.5" fill="#9FAEA4" font-style="italic">Fig. 1. One point per system understood before the next one could be built.</text>
+<path d="M640 110V356H1200" fill="none" stroke="#EFEFE4" stroke-width="1.3"/>
+<path d="M702 356v-6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M764 356v-6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M826 356v-6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M888 356v-6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M950 356v-6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M1012 356v-6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M1074 356v-6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M1136 356v-6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M640 315h6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M640 274h6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M640 233h6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M640 192h6" stroke="#EFEFE4" stroke-width="0.9"/>
+<path d="M640 151h6" stroke="#EFEFE4" stroke-width="0.9"/>
+<text x="920" y="386" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="12.5" fill="#9FAEA4" text-anchor="middle" font-style="italic">x  systems understood</text>
+<g transform="rotate(-90 612 233)"><text x="612" y="233" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="12.5" fill="#9FAEA4" text-anchor="middle" font-style="italic">y  systems built</text></g>
+<path d="M646 332 C700 324, 748 306, 792 288 C852 266, 890 254, 944 236 C1016 212, 1082 184, 1132 142" fill="none" stroke="#E58176" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M1132 142 L1188 112" fill="none" stroke="#8FBBE0" stroke-width="1.7" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<circle cx="662" cy="322" r="4.2" fill="#25342E" stroke="#EFEFE4" stroke-width="1.5"/>
+<text x="673" y="340" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#9FAEA4">full stack, built from scratch</text>
+<circle cx="792" cy="288" r="4.2" fill="#25342E" stroke="#EFEFE4" stroke-width="1.5"/>
+<text x="803" y="306" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#9FAEA4">computer vision at the edge</text>
+<circle cx="944" cy="236" r="4.2" fill="#25342E" stroke="#EFEFE4" stroke-width="1.5"/>
+<text x="955" y="254" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#9FAEA4">enterprise deployment, 7 countries</text>
+<circle cx="1132" cy="142" r="11" fill="none" stroke="#E58176" stroke-width="1" stroke-dasharray="2 3"/>
+<circle cx="1132" cy="142" r="5.6" fill="#E58176"/>
+<path d="M1124 136 L1090 118 H1064" fill="none" stroke="#E58176" stroke-width="1"/>
+<rect x="764" y="106" width="296" height="22" fill="#E8CE63" opacity="0.28"/>
+<text x="1056" y="123" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="15" fill="#E58176" text-anchor="end" font-style="italic">now: agentic systems, shipped with evals</text>
+</svg>

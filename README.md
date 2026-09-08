@@ -1,133 +1,63 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/fig-1-hero-dark.svg">
+  <img alt="Priyanshu Yogi, forward deployed engineer. Career plotted as a curve: full stack built from scratch, computer vision at the edge, enterprise deployment across 7 countries, now agentic systems shipped with evals." src="assets/fig-1-hero.svg" width="100%">
+</picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a8a&height=220&section=header&text=Priyanshu%20Yogi&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Customer-Facing%20Product%20Engineer%20%7C%20Forward%20Deployed%20Engineering&descAlignY=58&descSize=18" width="100%"/>
+I work in the gap between a customer's messy problem and something that actually runs in their environment. Three years of it: writing the product, architecting the solution, sitting in the discovery call, and then owning the deployment when it does not go to plan.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=700&lines=Where+customer+problems+meet+production+software;Forward+Deployed+Engineer+%7C+AI+Solutions+Engineer;Full-Stack+%2B+Computer+Vision+%2B+Agentic+AI;50%2B+enterprise+AI+opportunities+%2C+7+countries" alt="Typing SVG" />
+Most of that was at HawkVision AI. I joined early enough to be writing the frontend and the backend, and stayed long enough to be the person on the call in seven countries explaining why the model behaved that way on their camera feed. That combination is the whole point. I am now deliberately moving back toward hands-on building without giving up the customer half.
 
-<br/>
+Right now I am building agentic systems and publishing the evaluations, because a demo that works once is not evidence.
 
-[![Email](https://img.shields.io/badge/Email-pyogi37%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pyogi37@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-pyogi37-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pyogi37)
-![Location](https://img.shields.io/badge/📍-Jaipur%2C%20India%20·%20Open%20to%20Remote-2563EB?style=for-the-badge)
+<br>
 
-</div>
+**Table 1.** What is in this account
 
-<br/>
+| Project | What it does | Why it is worth a look |
+| :--- | :--- | :--- |
+| **[SignalRoom](https://github.com/pyogi37/signalroom)**<br><sub>[live demo](https://signalroom-web.onrender.com) · [case study](https://priyanshu.fyi/projects/signalroom)</sub> | A discovery transcript goes in. A solution brief comes out, with every claim tied to a numbered line the customer actually said | A LangGraph workflow, discover through gate, then an approved brief. The human gate is a real graph interrupt with a SQLite checkpoint, so a room resumes across process restarts. Grounding is enforced in code, not requested in a prompt. Ten synthetic fixtures with planted traps, and the evaluation is committed including what it fails. |
+| **[AI portfolio and voice agent](https://github.com/pyogi37/Portfolio)**<br><sub>[priyanshu.fyi](https://priyanshu.fyi)</sub> | Do not read my resume, talk to it. Ask out loud, and the page moves to the evidence while it answers | Four LLM providers tried in order, because free tiers fail on their own schedule and one of them withdrew the model the site ran on. UI actions come back as structured JSON and are validated against known ids before the client runs them. A pasted job description is treated as data, never as instructions, and the fit check drops any match it cannot cite. |
+| **[ReadTrail](https://github.com/pyogi37/ReadTrail)** | Chrome extension that draws a canvas trail of what you actually read on a page | Manifest V3, plain JavaScript, settings stay on device, no network calls. It has no AI in it at all, on purpose. |
 
-## 🧭 About Me
+<br>
 
-> **The best technical solution is not merely the most sophisticated one.**
-> It is the one that survives contact with users, infrastructure, commercial constraints, and deployment reality.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/fig-2-signalroom-dark.svg">
+  <img alt="SignalRoom pipeline: discover, extract, retrieve, design, critique, gate. Recall 0.948, precision 0.865, 119 of 119 quotes verbatim, 0 dropped, 4 of 4 prompt injections ignored, under $0.002 per room." src="assets/fig-2-signalroom.svg" width="100%">
+</picture>
 
-I'm a **customer-facing product engineer** and **former Solutions Architect**. My work spans full-stack engineering, enterprise discovery, AI solution architecture, PoCs, deployment planning, and the operating systems that keep Product, Engineering, and customers aligned.
+The honest reading of that zero is that the model behaved, not that the gate did work. It has fired zero times on a real run. It stays in anyway, with unit tests proving it fires when the model misbehaves, because a guarantee that costs nothing when things go well is still a guarantee. The failure worth knowing about is contradiction detection, 3 of 8, and it is in the README and the eval doc rather than left out of them. A benchmark you only publish when it flatters you is not a benchmark.
 
-At **HawkVision AI**, I worked across **50+ enterprise AI opportunities** in **7 countries**, supporting deployments in manufacturing, infrastructure, logistics, highways, construction, and airports. Before moving into solution architecture, I built dashboards, APIs, and Computer Vision pipeline integrations on the core engineering team.
+<br>
 
-Currently exploring **Forward Deployed Engineer**, **AI Solutions Engineer**, and **AI Product Engineer** roles.
+**Table 2.** What is not in this account, because it is not mine to publish
 
-<br/>
+| Work | Where | What it was |
+| :--- | :--- | :--- |
+| Highway safety computer vision PoC | HawkVision AI | Ten cameras across a 165 km corridor, carried to sign-off and now scaling toward a hundred. I owned discovery, feasibility, camera placement, architecture and deployment planning. |
+| AI native solutioning system | HawkVision AI, internal | Claude and Obsidian wired into the proposal process. First-draft proposals in 5 to 10 minutes, first-draft solution architecture specs in under 5, customer and market research routed into a shared vault. |
+| Instipe | Edviron | NestJS and GraphQL payments for educational institutions, over 50 lakh INR a month. A MongoDB pipeline rewrite took one query from more than 10 seconds to under 100 ms. |
+| WorkOS and Hazo | Project Dark Horse | Two products shipped out of an ambiguous early-stage vision by a team of five. Agentic workflows and role-based access on one, NestJS, React Native and AWS on the other. |
 
-## ⚙️ What I Work On
+<br>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/fig-3-tracks-dark.svg">
+  <img alt="Three overlapping hatched sets: Build (TypeScript, Python, NestJS, FastAPI, React, Next.js, Postgres, Mongo, LangGraph, RAG, evals), Deploy (Docker, AWS, Azure, CI/CD, edge inference, RTSP pipelines), Discover (50+ enterprise AI opportunities across 7 countries, RFPs, PoCs, pilot to scale). The overlap is labelled FDE." src="assets/fig-3-tracks.svg" width="100%">
+</picture>
 
-**🚀 Forward-Deployed Engineering**
-Turning ambiguous workflows into prototypes, architectures, and deployable systems
+<br>
 
-**🤖 AI Product Engineering**
-Building agentic workflows, APIs, internal tools, and customer-facing applications
+### Notes
 
-</td>
-<td width="50%" valign="top">
+**Open to** forward deployed engineer, applied AI engineer, AI solutions engineer and solutions architect roles. Based in Jaipur, happy to work remote.
 
-**📋 Enterprise Solutioning**
-Discovery, PoCs, RFPs, deployment design, and pilot-to-scale execution
+**In the workshop, not shipped.** Agentic RAG experiments and voice and audio experiments are marked exploring. EdgeVision Lite and an ANPR pipeline are marked planned. They are labelled that way on the site too, because interest is not experience. When one earns a row in Table 1, it will get one.
 
-**🏗️ Full-Stack Systems**
-TypeScript, Python, Node.js, NestJS, React, FastAPI, PostgreSQL, MongoDB, Docker, AWS
+**Background.** B.A. in Economics and Political Science, University of Delhi. I learned to build outside a CS degree, through bootcamps, work and a lot of shipping. It is why I tend to start from the customer's constraint rather than from the framework.
 
-</td>
-</tr>
-</table>
+<br>
 
-<br/>
+> The best technical solution is not merely the most sophisticated one. It is the one that survives contact with users, infrastructure, commercial constraints, and deployment reality.
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Computer Vision](https://img.shields.io/badge/Computer%20Vision-5C2D91?style=for-the-badge&logo=opencv&logoColor=white)
-
-</div>
-
-<br/>
-
-## 🌟 Selected Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📖 [ReadTrail](https://github.com/pyogi37/ReadTrail)
-A **privacy-first Chrome extension** for focused reading.
-
-- Canvas-based reading trail
-- Line highlighting engine
-- Local-only settings & reading-position memory
-- Automated behavioral tests
-
-`Chrome Extension` `TypeScript` `Canvas API`
-
-</td>
-<td width="50%" valign="top">
-
-### 🧾 AI Solutioning Engineer
-*In development*
-
-An AI-native workflow that turns enterprise RFP documents into:
-- Structured requirements
-- Traceable evidence
-- Clarification questions
-- A cited compliance matrix
-
-`Agentic AI` `RAG` `Document Intelligence`
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=pyogi37&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pyogi37&theme=tokyonight&hide_border=true" height="165"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-### 💬 Let's build something that survives contact with reality.
-
-[![Email](https://img.shields.io/badge/Reach%20out-pyogi37%40gmail.com-2563EB?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:pyogi37@gmail.com)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0f172a&height=100&section=footer" width="100%"/>
-
-</div>
+<sub>[priyanshu.fyi](https://priyanshu.fyi)&nbsp; ·&nbsp; [linkedin.com/in/priyanshuyogi](https://linkedin.com/in/priyanshuyogi)&nbsp; ·&nbsp; [pyogi37@gmail.com](mailto:pyogi37@gmail.com)</sub>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img">
+<defs>
+<pattern id="q1" width="16" height="16" patternUnits="userSpaceOnUse">
+<path d="M16 0H0V16" fill="none" stroke="#C9D7E6" stroke-width="0.6"/>
+</pattern>
+<pattern id="q2" width="80" height="80" patternUnits="userSpaceOnUse">
+<path d="M80 0H0V80" fill="none" stroke="#ADC3D8" stroke-width="0.9"/>
+</pattern>
+<pattern id="hA" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8 L8 0" stroke="#7C242C" stroke-width="1" opacity="0.55"/></pattern><pattern id="hB" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0 L8 8" stroke="#1B4F9C" stroke-width="1" opacity="0.55"/></pattern><pattern id="hC" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M4 0 L4 8" stroke="#141C2B" stroke-width="1" opacity="0.55"/></pattern>
+<clipPath id="c1"><circle cx="420" cy="180" r="100"/></clipPath><clipPath id="c2" clip-path="url(#c1)"><circle cx="560" cy="180" r="100"/></clipPath><clipPath id="c3" clip-path="url(#c2)"><circle cx="490" cy="272" r="100"/></clipPath>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0 0 L10 5 L0 10 z" fill="#1B4F9C"/>
+</marker>
+</defs>
+<rect width="1280" height="420" fill="#F4F5F0"/>
+<rect width="1280" height="420" fill="url(#q1)"/>
+<rect width="1280" height="420" fill="url(#q2)"/>
+<rect x="28" y="28" width="1224" height="364" fill="none" stroke="#1A2434" stroke-width="1.1"/>
+<text x="56" y="62" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="1.7" fill="#5C687A">FIG. 3</text>
+<text x="1224" y="62" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#5C687A">priyanshu.fyi</text>
+<path d="M56 76H1224" stroke="#5C687A" stroke-width="0.7" opacity="0.55"/>
+<circle cx="420" cy="180" r="100" fill="url(#hA)"/>
+<circle cx="560" cy="180" r="100" fill="url(#hB)"/>
+<circle cx="490" cy="272" r="100" fill="url(#hC)"/>
+<circle cx="420" cy="180" r="100" fill="none" stroke="#7C242C" stroke-width="1.4"/>
+<circle cx="560" cy="180" r="100" fill="none" stroke="#1B4F9C" stroke-width="1.4"/>
+<circle cx="490" cy="272" r="100" fill="none" stroke="#141C2B" stroke-width="1.4"/>
+<text x="366" y="130" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="17" fill="#141C2B" text-anchor="middle">Build</text>
+<text x="614" y="130" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="17" fill="#141C2B" text-anchor="middle">Deploy</text>
+<text x="490" y="350" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="17" fill="#141C2B" text-anchor="middle">Discover</text>
+<rect x="380" y="140" width="220" height="180" fill="#F0E05C" opacity="0.92" clip-path="url(#c3)"/>
+<text x="490" y="212" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#141C2B" text-anchor="middle">FDE</text>
+<rect x="720" y="95" width="24" height="24" fill="url(#hA)" stroke="#7C242C" stroke-width="1"/>
+<text x="758" y="112" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#141C2B" font-weight="700">Build</text>
+<text x="758" y="132" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#5C687A">TypeScript, Python, NestJS, FastAPI, React, Next.js,</text>
+<text x="758" y="149" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#5C687A">Postgres, Mongo, LangGraph, RAG, evals</text>
+<rect x="720" y="165" width="24" height="24" fill="url(#hB)" stroke="#1B4F9C" stroke-width="1"/>
+<text x="758" y="182" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#141C2B" font-weight="700">Deploy</text>
+<text x="758" y="202" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#5C687A">Docker, AWS, Azure, CI/CD, edge inference, RTSP</text>
+<text x="758" y="219" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#5C687A">pipelines, pilots that actually ran</text>
+<rect x="720" y="235" width="24" height="24" fill="url(#hC)" stroke="#141C2B" stroke-width="1"/>
+<text x="758" y="252" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#141C2B" font-weight="700">Discover</text>
+<text x="758" y="272" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#5C687A">50+ enterprise AI opportunities across 7 countries,</text>
+<text x="758" y="289" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#5C687A">RFPs, PoCs, pilot to scale</text>
+<path d="M720 300H1216" stroke="#5C687A" stroke-width="0.7" opacity="0.55"/>
+<text x="720" y="332" font-family="'Libre Caslon Text',Georgia,'Times New Roman',serif" font-size="18" fill="#141C2B" font-style="italic">The overlap is the job.</text>
+<text x="720" y="356" font-family="'Atkinson Hyperlegible',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#5C687A">Most people pick one circle. The problems worth solving sit where all three meet.</text>
+</svg>
