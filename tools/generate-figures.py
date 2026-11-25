@@ -112,7 +112,7 @@ def fig1(p):
 
     pts = [(662, 322, "full stack, built from scratch"),
            (792, 288, "computer vision at the edge"),
-           (944, 236, "enterprise deployment, 7 countries")]
+           (944, 236, "enterprise deployment, multiple countries")]
     for (px, py, lab) in pts:
         s += f'<circle cx="{px}" cy="{py}" r="4.2" fill="{p["bg"]}" stroke="{p["ink"]}" stroke-width="1.5"/>\n'
         s += txt(px + 11, py + 18, lab, SANS, 11.5, p["muted"])
@@ -224,7 +224,7 @@ def fig3(p):
             (182, "hB", p["cobalt"], "Deploy",
              "Docker, AWS, Azure, CI/CD, edge inference, RTSP", "pipelines, pilots that actually ran"),
             (252, "hC", p["ink"], "Discover",
-             "50+ enterprise AI opportunities across 7 countries,", "RFPs, PoCs, pilot to scale")]
+             "50+ enterprise AI opportunities, multiple countries,", "RFPs, PoCs, pilot to scale")]
     for (y, pid, col, name, d1, d2) in rows:
         s += f'<rect x="720" y="{y-17}" width="24" height="24" fill="url(#{pid})" stroke="{col}" stroke-width="1"/>\n'
         s += txt(758, y, name, SANS, 14.5, p["ink"], weight="700")

@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/fig-1-hero-dark.svg">
-  <img alt="Priyanshu Yogi, forward deployed engineer. Career plotted as a curve: full stack built from scratch, computer vision at the edge, enterprise deployment across 7 countries, now agentic systems shipped with evals." src="assets/fig-1-hero.svg" width="100%">
+  <img alt="Priyanshu Yogi, forward deployed engineer. Career plotted as a curve: full stack built from scratch, computer vision at the edge, enterprise deployment across multiple countries and markets, now agentic systems shipped with evals." src="assets/fig-1-hero.svg" width="100%">
 </picture>
 
 I work in the gap between a customer's messy problem and something that actually runs in their environment. Three years of it: writing the product, architecting the solution, sitting in the discovery call, and then owning the deployment when it does not go to plan.
 
-Most of that was at HawkVision AI. I joined early enough to be writing the frontend and the backend, and stayed long enough to be the person on the call in seven countries explaining why the model behaved that way on their camera feed. That combination is the whole point. I am now deliberately moving back toward hands-on building without giving up the customer half.
+Most of that was at HawkVision AI. I joined early enough to be writing the frontend and the backend, and stayed long enough to be the person on customer calls across multiple countries and markets, explaining why the model behaved that way on their camera feed. That combination is the whole point. I am now deliberately moving back toward hands-on building without giving up the customer half.
 
 Right now I am building agentic systems and publishing the evaluations, because a demo that works once is not evidence.
 
@@ -28,7 +28,7 @@ Right now I am building agentic systems and publishing the evaluations, because 
   <img alt="SignalRoom pipeline: discover, extract, retrieve, design, critique, gate. Recall 0.948, precision 0.865, 119 of 119 quotes verbatim, 0 dropped, 4 of 4 prompt injections ignored, under $0.002 per room." src="assets/fig-2-signalroom.svg" width="100%">
 </picture>
 
-The honest reading of that zero is that the model behaved, not that the gate did work. It has fired zero times on a real run. It stays in anyway, with unit tests proving it fires when the model misbehaves, because a guarantee that costs nothing when things go well is still a guarantee. The failure worth knowing about is contradiction detection, 3 of 8, and it is in the README and the eval doc rather than left out of them. A benchmark you only publish when it flatters you is not a benchmark.
+The honest reading of that zero is that the model behaved, not that the gate did work. It has fired zero times on a real run. It stays in anyway, with unit tests proving it fires when the model misbehaves, because a guarantee that costs nothing when things go well is still a guarantee. The failure worth knowing about is contradiction detection: 3 of 8 from the model alone. A code check I wrote after that run catches the ones that turn on a corrected figure, 7 of 8 when replayed on the same recorded outputs, so it isn't a fresh test, and a reversal far apart is still missed. All of it is in the README and the eval doc rather than left out of them. A benchmark you only publish when it flatters you is not a benchmark.
 
 <br>
 
@@ -38,21 +38,21 @@ The honest reading of that zero is that the model behaved, not that the gate did
 | :--- | :--- | :--- |
 | Highway safety computer vision PoC | HawkVision AI | Ten cameras across a 165 km corridor, carried to sign-off and now scaling toward a hundred. I owned discovery, feasibility, camera placement, architecture and deployment planning. |
 | AI native solutioning system | HawkVision AI, internal | Claude and Obsidian wired into the proposal process. First-draft proposals in 5 to 10 minutes, first-draft solution architecture specs in under 5, customer and market research routed into a shared vault. |
-| Instipe | Edviron | NestJS and GraphQL payments for educational institutions, over 50 lakh INR a month. A MongoDB pipeline rewrite took one query from more than 10 seconds to under 100 ms. |
+| Instipe | Edviron | NestJS and GraphQL payments for educational institutions, over 50 lakh INR a month. A MongoDB pipeline rewrite took slow queries from more than 10 seconds to about 100 to 200 ms. |
 | WorkOS and Hazo | Project Dark Horse | Two products shipped out of an ambiguous early-stage vision by a team of five. Agentic workflows and role-based access on one, NestJS, React Native and AWS on the other. |
 
 <br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/fig-3-tracks-dark.svg">
-  <img alt="Three overlapping hatched sets: Build (TypeScript, Python, NestJS, FastAPI, React, Next.js, Postgres, Mongo, LangGraph, RAG, evals), Deploy (Docker, AWS, Azure, CI/CD, edge inference, RTSP pipelines), Discover (50+ enterprise AI opportunities across 7 countries, RFPs, PoCs, pilot to scale). The overlap is labelled FDE." src="assets/fig-3-tracks.svg" width="100%">
+  <img alt="Three overlapping hatched sets: Build (TypeScript, Python, NestJS, FastAPI, React, Next.js, Postgres, Mongo, LangGraph, RAG, evals), Deploy (Docker, AWS, Azure, CI/CD, edge inference, RTSP pipelines), Discover (50+ enterprise AI opportunities across multiple countries and markets, RFPs, PoCs, pilot to scale). The overlap is labelled FDE." src="assets/fig-3-tracks.svg" width="100%">
 </picture>
 
 <br>
 
 ### Notes
 
-**Open to** forward deployed engineer, applied AI engineer, AI solutions engineer and solutions architect roles. Based in Jaipur, happy to work remote.
+**Open to** forward deployed engineer, AI solutions engineer, founding engineer, and software, backend, full-stack and product engineering roles at AI-native startups. Based in Jaipur, open to Bengaluru or on-site, happy to work remote.
 
 **In the workshop, not shipped.** Agentic RAG experiments and voice and audio experiments are marked exploring. EdgeVision Lite and an ANPR pipeline are marked planned. They are labelled that way on the site too, because interest is not experience. When one earns a row in Table 1, it will get one.
 
